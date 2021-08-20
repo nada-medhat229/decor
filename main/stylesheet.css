@@ -1,0 +1,201 @@
+body{
+ /*
+    background-image: url(99999.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat; */}
+.header .slider {
+    background-image: url(../image/000.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 550px;
+}
+ .header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 45px;
+    font-family: cursive;
+    width: 600px;
+    text-align: center;
+    padding: 5px 0;
+}
+.header .navbar {
+    background-color:darkgrey;
+    color: #fff;
+    overflow: hidden;
+}
+.header .navbar.container {
+    width: 1000px;
+    margin: auto;
+}
+.container {
+    margin: auto;
+    width: 1000px;
+    margin-top: 20px;
+}
+.about {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.about .roll{
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 0px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.about .roll img{
+    width: 100%;
+}
+.roll {
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    padding: 3px;
+    background-color: #e4e4e4;
+    border:  solid #ccc;
+    box-shadow: 7px 7px 10px #e4e4e4;
+    
+    border-radius: 50%;
+}
+.roll img:hover{transition:all  5s ease-in-out;
+     border-radius: 50%;
+    -webkit-transform:translatex(150px);
+    transform:translatex(150px);
+}
+.roll .info {
+    width: 60%;
+    float: right;  
+    margin:auto;
+    font-family:  cursive;
+}
+.roll .info p{
+    margin: 15px 10px 0 40px;
+    
+}
+.some{border: 1px solid #ccc;
+    background-color:#ccc;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.some q{
+    line-height: 1.7;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.some h3{
+    color: #777;
+    margin-bottom: 10px;
+}
+.some ul{
+    list-style: circle;
+    padding-left: 0;
+    
+    text-align: center;
+}
+.active,
+.some ul li:hover{
+    background-color:#8fadb3;
+}
+.some ul li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #8fadb3;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.galarey{
+    text-align: center;
+}
+.galarey h2{
+    color: #888;
+}
+.galarey .our-work{
+    overflow: hidden;
+}
+.lala{
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+img{
+    width: 85%;
+    margin: 5px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.dor{
+    float: right;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.goo{
+    float: left;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.sure{
+    float: right;
+    width: 50%;
+    margin-bottom: 0px;
+}
+.contact{   
+    margin-top: 12px;
+    padding-top: 5px;
+    height: 220px; 
+    background-color: #e4e4e457;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arapey,serif;
+    color: #1f2021;
+    font-weight: 400;
+    font-style: normal;}
+.contact ul , il {
+    width: 300px;
+    margin: 0 0 15px 20px;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    float: left;
+}
+.input-group {
+    margin: auto;
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #8d9a9c;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 12px 5px 12px 10px;
+}
+
+ /*
+.container p{
+    
+    margin:auto;
+    font-weight: 20px;
+    font-size: 30px;
+    font-family:  cursive;
+    text-align: center;
+
+} */
+/*
+ul li
+{
+    list-style: none;
+   
+    float: left;
+}
+ ul li img
+{  
+    margin: 4px;
+    float: left;
+    width: 407px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}*/
